@@ -1,0 +1,45 @@
+.grid-services {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10% 10%;
+    gap: 48px;
+}
+
+.grid-services h1 {
+    font-family: 'Gotham Bold', sans-serif;
+    font-size: x-large;
+}
+
+.grid-services p {
+    font-family: 'Gotham Light', sans-serif;
+    line-height: 24px;
+    font-size: medium;
+}
+
+.grid-services .text-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 32px;
+    gap: 24px;
+}
+
+.grid-services .column {
+    color: white;
+    background-color: #3aa9f6;
+}
+
+.grid-services img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 480px) {
+    .grid-services {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10% 10%;
+        gap: 48px;
+    }
+}

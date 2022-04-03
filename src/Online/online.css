@@ -1,0 +1,60 @@
+.online-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 60vh;
+    margin: 10% 10%;
+    gap: 64px;
+}
+
+#imagem-online {
+    background-image: url(../../public/online.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+hr {
+    width: 75px;
+    height: 3px;
+    background-color: #3aa9f6;
+    border: 0;
+}
+
+.online-section h1 {
+    font-family: 'Gotham Bold', sans-serif;
+    font-size: 32px;
+    color: #252525;
+}
+
+.online-section p {
+    font-family: 'Gotham Light', sans-serif;
+    font-size: 19px;
+    line-height: 32px;
+    color: #363636;
+}
+
+@media (max-width: 480px) {
+    .online-section h1 {
+        font-family: 'Gotham Bold', sans-serif;
+        font-size: 32px;
+        height: 64px;
+        overflow-y: hidden;
+        color: #252525;
+    }
+
+    #imagem-online {
+        display: none;
+    }
+
+    .online-section {
+        display: flex;
+        flex-direction: column;
+        margin: 30% 10%;
+    }
+}

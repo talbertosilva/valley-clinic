@@ -5,7 +5,7 @@ header {
     align-items: center;
     margin: 20px 10%;
     z-index: 1000;
-    background: transparent;
+    background-color: transparent;
 }
 
 header ul {
@@ -23,4 +23,25 @@ header li {
 
 header img {
     width: 200px;
+}
+
+@media (max-width: 480px) {
+    header img {
+        display: none;
+    }
+
+    header ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        list-style: none;
+        font-family: 'Gotham', sans-serif;
+    }
+
+    header li {
+        text-align: start;
+        text-decoration: none;
+        cursor: pointer;
+        width: auto;
+    }
 }

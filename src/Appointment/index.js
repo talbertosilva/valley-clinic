@@ -3,33 +3,34 @@ import React from 'react'
 import './appointment.css'
 
 export const Appointment = () => {
-  return (
-    <div className='containerApp'>
-        <h2>
-            Make an appointment
-        </h2>
-        <h3>
-            Lorem ipsum dolor sit amet, consectetur adipiscing. <br/> Maecenas semper odio diam, a tempus.
-        </h3>
-        <div className='inputs-line1'>
-            <input type={'text'} placeholder='Name'></input>
-            <input type={'email'} placeholder='Email'></input>
-            <input type={'text'} placeholder='Phone'></input>
-        </div>
-        <div className='inputs-line2'>
-            <input id='input' type={'date'}></input>
-            <div id='input'>
-                <div>Department</div>
-                <div>
-                    <ul>
-                        <li>Pediatric</li>
-                        <li>Cardiac</li>
-                        <li>Ophthalmology</li>
-                    </ul>
+    return (
+        <div className='containerApp'>
+            <h2>
+                Make an appointment
+            </h2>
+            <h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing. <br /> Maecenas semper odio diam, a tempus.
+            </h3>
+            <div className='grid-container'>
+                <div className="grid-item">
+                    <input type={'text'} placeholder='Name'></input>
+                </div>
+                <div className="grid-item" id="middle">
+                    <input type={'email'} placeholder='Email'></input>
+                </div>
+                <div className="grid-item">
+                    <input type={'text'} placeholder='Phone'></input>
+                </div>
+                <div className="grid-item">
+                    <input type={'date'}></input>
+                </div>
+                <div className="grid-item">
+                    <input type={'date'}></input>
+                </div>
+                <div className="grid-item">
+                    <button id='input'>Confirm</button>
                 </div>
             </div>
-            <button id='input'>Confirm</button>
         </div>
-    </div>
-  )
+    )
 }

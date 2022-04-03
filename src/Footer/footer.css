@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5% 10%;
+    justify-content: space-between;
+    background-color: #3aa9f6;
+}
+
+.footer h1 {
+    font-family: 'Gotham Bold', sans-serif;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.footer p {
+    font-family: 'Gotham Light', sans-serif;
+    line-height: 32px;
+    color: white;
+}
+
+.footer button {
+    cursor: pointer;
+    padding: 12px 48px;
+    font-family: 'Gotham', sans-serif;
+    margin-top: 32px;
+    border: 0;
+}
+
+@media (max-width: 480px) {
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20% 10%;
+        justify-content: space-between;
+        background-color: #3aa9f6;
+        gap: 48px;
+    }
+}

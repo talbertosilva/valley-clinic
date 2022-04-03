@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import './menu.css'
 
 export const Menu = () => {
-    const [bold, setBold] = useState('')
+    const [bold, setBold] = useState('home')
 
     const boldHandler = (ident) => {
         setBold(ident);
