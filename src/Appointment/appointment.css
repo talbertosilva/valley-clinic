@@ -1,0 +1,58 @@
+.containerApp {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 56px;
+    margin: 0% 10%;
+    background-color: white;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.404);
+    z-index: 5;
+    gap: 21px;
+}
+
+.containerApp h2 {
+    font-family: 'Gotham Bold', sans-serif;
+}
+.containerApp h3 {
+    font-family: 'Gotham Light', sans-serif;
+}
+
+.inputs-line1 {
+    display: flex;
+    margin-top: 32px;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.inputs-line1 input {
+    flex-grow: 1;
+    height: 48px;
+    padding: 0px 18px;
+}
+
+.inputs-line1 input:nth-child(2) {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.inputs-line2 {
+    display: flex;
+    margin-top: 32px;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.inputs-line2 #input {
+    flex-grow: 1;
+    height: 48px;
+    padding: 0px 18px;
+}
+
+.inputs-line2 #input:nth-child(2) {
+    margin-left: 32px;
+    margin-right: 32px;
+}
