@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/valley-clinic/static/css/main.bec73671.css",
+    "main.js": "/valley-clinic/static/js/main.209a9f5b.js",
+    "static/media/clinic.png": "/valley-clinic/static/media/clinic.d2fde247a5cc6a4c228e.png",
+    "static/media/online.jpg": "/valley-clinic/static/media/online.d1471a6dffbb160a54cb.jpg",
+    "static/media/background.png": "/valley-clinic/static/media/background.ddb07b397b9b70aa05c3.png",
+    "index.html": "/valley-clinic/index.html",
+    "main.bec73671.css.map": "/valley-clinic/static/css/main.bec73671.css.map",
+    "main.209a9f5b.js.map": "/valley-clinic/static/js/main.209a9f5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bec73671.css",
+    "static/js/main.209a9f5b.js"
+  ]
+}
